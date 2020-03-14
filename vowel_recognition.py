@@ -1,3 +1,10 @@
+'''
+    Author: Alejandro Martinez
+    Contact: alejandrorm@me.com
+    Program Description: This program takes as input a sequence of mfccs (taken
+    from audio files) representing a certain vowel phoneme. It then fits an LSTM
+    model and classifies the input into one of twelve possible vowel phonemes.
+'''
 import os
 from vowel_recognition_helpers import *
 import numpy as np
